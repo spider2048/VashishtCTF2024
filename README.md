@@ -23,3 +23,16 @@ $ g++ <args>
 ```
 
 Do not optimize your code, **only** use `-Oz` because it makes your challenges harder.
+
+
+### Making Web Applications
+
+Make sure that:
+
+* All (npm/pip) packages are up to date
+* User input is **always** escaped/sanitized and in some cases has a word limit
+* Every endpoint is **ratelimited**
+
+For python apps:
+
+* Use `poetry` Basic usage [here](https://python-poetry.org/docs/basic-usage/)

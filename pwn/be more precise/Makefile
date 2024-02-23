@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-mavx -funroll-loops -ftemplate-depth=10000 -Os -static
-FLAG=SURGE{}
+FLAG=$(shell cat flag.txt)
 
 distrib/precise: src/float.cpp
 	mkdir -p distrib

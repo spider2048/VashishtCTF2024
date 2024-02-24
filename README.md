@@ -1,5 +1,9 @@
 # Vashist CTF 2024
 
+## Challenge Ideas
+
+See: [Ideas](/Challenges.md)
+
 ## Guidelines
 
 ### Compiling C/C++ Code

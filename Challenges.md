@@ -10,6 +10,7 @@
 - [ ] Java clicker game
 - [ ] Pycompiled binary in TinyCore Memory dump
 - [ ] 2D Map Seed estimation
+- [ ] Call to memory with key
 
 ## Web
 

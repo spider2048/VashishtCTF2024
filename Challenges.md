@@ -10,7 +10,7 @@
 - [ ] Java clicker game
 - [ ] Pycompiled binary in TinyCore Memory dump
 - [ ] 2D Map Seed estimation
-- [ ] Call to memory with AES key
+- [x] Call to memory with AES key
 
 ## Web
 
@@ -20,6 +20,7 @@
 
 ## Misc
 
+- [ ] PNG Heightmap
 - [x] PNG Corrupted checksums
 - [x] Count diamond blocks in a minecraft world
 

@@ -1,6 +1,6 @@
 # Vashisht CTF Challenges
 
-> 9 / 20
+> 10 / 20
 
 ## PWN
 
@@ -50,4 +50,4 @@ Medium:
 
 ## Cryptography
 
-- [ ] Basic AES + RSA
+- [x] Basic RSA

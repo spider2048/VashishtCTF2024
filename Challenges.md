@@ -3,13 +3,13 @@
 ## PWN
 
 - [x] Floating Point Arithmetic
+- [x] Greeter
 
 ## Reverse Engineering
 
-- [ ] 2D Ray cast map
-- [ ] Java clicker game
-- [ ] Pycompiled binary in TinyCore Memory dump
-- [ ] 2D Map Seed estimation
+- [ ] Pycompiled binary calling functions
+- [ ] Self modifying binary
+- [x] Large unrolls
 - [x] Call to memory with AES key
 
 ## Web
@@ -20,9 +20,11 @@
 
 ## Misc
 
-- [ ] PNG Heightmap
+Medium to Hard:
+
 - [x] PNG Corrupted checksums
 - [x] Count diamond blocks in a minecraft world
+- [x] Scared of heights
 
 ## Cryptography
 

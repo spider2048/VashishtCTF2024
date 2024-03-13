@@ -1,6 +1,6 @@
 # Vashisht CTF Challenges
 
-> 10 / 20
+> 11 / 20
 
 ## PWN
 
@@ -50,4 +50,7 @@ Medium:
 
 ## Cryptography
 
+Easy:
+
 - [x] Basic RSA
+- [x] Flag in public key name

@@ -1,16 +1,35 @@
 # Vashisht CTF Challenges
 
+> 9 / 20
+
 ## PWN
 
-- [x] Floating Point Arithmetic
+Easy:
+
 - [x] Greeter
+
+Medium:
+
+- [x] Notes (ROP)
+
+Hard:
+
+- [x] Floating Point Arithmetic
 
 ## Reverse Engineering
 
-- [ ] Pycompiled binary calling functions
-- [ ] Self modifying binary
-- [x] Large unrolls
+Easy:
+
 - [x] Call to memory with AES key
+
+Medium:
+
+- [x] Send flag over network (pycompiled)
+- [ ] Self modifying binary
+
+Hard:
+
+- [x] Large unrolls
 
 ## Web
 
@@ -20,11 +39,14 @@
 
 ## Misc
 
-Medium to Hard:
+Easy:
+
+- [x] Scared of heights
+
+Medium:
 
 - [x] PNG Corrupted checksums
 - [x] Count diamond blocks in a minecraft world
-- [x] Scared of heights
 
 ## Cryptography
 

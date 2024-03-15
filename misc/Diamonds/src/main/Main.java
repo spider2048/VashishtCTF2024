@@ -3,16 +3,8 @@ package main;
 import java.io.IOException;
 import java.util.Random;
 
-import net.morbz.minecraft.blocks.DoorBlock;
-import net.morbz.minecraft.blocks.Material;
-import net.morbz.minecraft.blocks.SimpleBlock;
-import net.morbz.minecraft.blocks.DoorBlock.DoorMaterial;
-import net.morbz.minecraft.blocks.DoorBlock.HingeSide;
-import net.morbz.minecraft.blocks.states.Facing4State;
-import net.morbz.minecraft.level.FlatGenerator;
-import net.morbz.minecraft.level.GameType;
-import net.morbz.minecraft.level.IGenerator;
-import net.morbz.minecraft.level.Level;
+import net.morbz.minecraft.blocks.*;
+import net.morbz.minecraft.level.*;
 import net.morbz.minecraft.world.DefaultLayers;
 import net.morbz.minecraft.world.World;
 
@@ -20,7 +12,7 @@ public class Main {
 	// 13210031
 	public static void main(String[] args) throws IOException {
 		DefaultLayers layers = new DefaultLayers();
-		IGenerator generator = new FlatGenerator(layers);
+		IGenerator generator = new FlatGenerator(layers); 
 		
 		Level level = new Level("MelonWorld", generator);
 		level.setGameType(GameType.CREATIVE);

@@ -1,8 +1,8 @@
 # Vashisht CTF Challenges
 
-> 11 / 20
+> 12 / 20
 
-## PWN
+## PWN (3)
 
 Easy:
 
@@ -16,7 +16,7 @@ Hard:
 
 - [x] Floating Point Arithmetic
 
-## Reverse Engineering
+## Reverse Engineering (4)
 
 Easy:
 
@@ -25,6 +25,7 @@ Easy:
 Medium:
 
 - [x] Send flag over network (pycompiled)
+- [x] GTA SA Mod
 - [ ] Self modifying binary
 
 Hard:
@@ -37,7 +38,7 @@ Hard:
 - [ ] `aiohttp` path traversal
 - [ ] Typing test - reach max WPM
 
-## Misc
+## Misc (3)
 
 Easy:
 
@@ -48,7 +49,7 @@ Medium:
 - [x] PNG Corrupted checksums
 - [x] Count diamond blocks in a minecraft world
 
-## Cryptography
+## Cryptography (2)
 
 Easy:
 

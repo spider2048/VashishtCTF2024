@@ -35,10 +35,11 @@ def encrypt(text, key):
     sched = key_scheduling(key)
     key_stream = stream_generation(sched)
     
-    ciphertext = ''
+    ciphertext = []
     for char in text:
-        enc = str(hex(char ^ next(key_stream))).upper()
-        ciphertext += (enc)
+        # enc = str(hex()).upper()
+        # ciphertext += (enc)
+        ciphertext.append(char ^ next(key_stream))
         
     return ciphertext
     

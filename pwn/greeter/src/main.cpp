@@ -7,7 +7,7 @@
 int show = 0;
 
 [[nodiscard]] void win() {
-    std::ifstream flag("../flag.txt");
+    std::ifstream flag("flag.txt");
     std::string buf;
     std::getline(flag, buf);
     std::cout << "You win! " << buf << std::endl;

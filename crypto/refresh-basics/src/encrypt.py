@@ -9,10 +9,7 @@ n = p * q
 
 assert n > flag
 
-l = (p-1) * (q-1)
-
-e = 65535
-d = pow(n, e, -1)
+e = 65537
 
 ct = pow(flag, e, n)
 

@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/usr/src -w /usr/src -it python:3.11-slim /bin/bash

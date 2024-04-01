@@ -9,7 +9,6 @@ while len(primes) < len(flag):
         primes.append(last)
     last += 1
 
-
 N = 1
 lp = 0
 
